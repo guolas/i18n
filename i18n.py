@@ -52,6 +52,7 @@ class TestI18nMethods(unittest.TestCase):
         self.assertEqual(i18n("I do it"), "I-1I d0o i0t")
         self.assertEqual(i18n("see,there is that thing"), "s1e,t3e i0s t2t t3g")
         self.assertEqual(i18n("¿qué hora es?"), "¿q1é h2a e0s?")
+        self.assertEqual(i18n("internationalization"), "i18n")
 
 if __name__ == "__main__":
     unittest.main()
